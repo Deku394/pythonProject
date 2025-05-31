@@ -1,5 +1,4 @@
 #вёрстка клавиатур
-from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 start_kb = InlineKeyboardMarkup(inline_keyboard=[
@@ -57,16 +56,3 @@ ask_question_kb = InlineKeyboardMarkup(
         [InlineKeyboardButton(text='Назад в главное меню', callback_data='back_menu')],
     ]
 )
-
-#панель администратора, которая сможет выводить список пользователей и дополнительную информацию, подсчитывать статистику их количества,
-# а также осуществлять блокировку и разблокировку пользователей.
-#admin_panel = InlineKeyboardMarkup(
-    #inline_keyboard=[
-        #[InlineKeyboardButton(text='Пользователи', callback_data='users')],
-        #[InlineKeyboardButton(text='Статистика', callback_data='stat')],
-        #[
-        #InlineKeyboardButton(text='Блокировка', callback_data='block'),
-        #InlineKeyboardButton(text='Разблокировка', callback_data='unblock')
-        #]
-    #]
-#)
