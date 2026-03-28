@@ -22,7 +22,7 @@ from datetime import datetime, date, timedelta
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # ВНИМАНИЕ: Замените на ваш реальный API-токен бота
-api = '8081851926:AAFGhM39fmpjZVFH-WPd2T2jyD-1sI8z-m4'
+api = ''
 bot_tests = Bot(token=api)
 dp = Dispatcher(bot_tests, storage=MemoryStorage())
 
