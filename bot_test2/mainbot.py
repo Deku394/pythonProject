@@ -5,8 +5,7 @@ from aiogram.utils.exceptions import MessageNotModified
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import StatesGroup, State
-from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, \
-    KeyboardButton
+from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton
 from keyboards import *  # Предполагается, что этот файл существует и содержит определения клавиатур
 from texst import *  # Предполагается, что этот файл существует и содержит определения текстов
 import logging
